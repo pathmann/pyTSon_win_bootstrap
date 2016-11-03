@@ -1,8 +1,8 @@
-QT       += gui widgets
+QT       -= core gui widgets
 
 CONFIG += c++11
 
-TARGET = pyTSon_win_bootstrap
+TARGET = bootstrap_win_pyTSon
 TEMPLATE = lib
 
 DESTDIR = $$PWD/build
@@ -16,3 +16,4 @@ INCLUDEPATH += ../../includes/pluginsdk/21/include
 SOURCES += bootstrap.cpp
 
 HEADERS += bootstrap.h
+
